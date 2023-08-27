@@ -1,4 +1,37 @@
-<h1 class="header">我是 header</h1>
-<a href="index.html">index</a>
-<a href="about.html">about</a>
-<a href="contact.html">contact</a>
+<div class="border-2 border-bottom border-secondary navbar navbar-expand-md p-0 position-relative">
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between py-4 w-100">
+            <div class="d-flex align-items-center">
+                <a href="../pages/index.html" class="shake-little shake-constant shake-constant--hover"><img class="me-4 d-md-none d-block" style="width:40px;" src="../assets/images/logo.png" alt="logo"></a>
+                <a href="../pages/index.html" class="shake-slow shake-constant shake-constant--hover"><img class="me-3 d-md-block d-none" style="width:53px;" src="../assets/images/logo.png" alt="logo"></a>
+                <a href="../pages/index.html" class="btn-hover-secondary"><h2 class="me-1 my-0  d-md-block d-none">7TAO</h2></a>
+                <a href="../pages/index.html" class="btn-hover-secondary"><p class="my-0 d-lg-block d-none">活動訂票網</p></a>
+                <form class="d-flex ">
+                    <input type="search" class="ms-md-5 border border-2 border-secondary rounded-0 w-75 px-4 py-3 bg-info" style="outline: none; line-height: 19px;" placeholder="探索活動">
+                    <button  type="button" class="btn btn-secondary btn-hover-primary rounded-0"><i class="icofont-search-1 text-primary"></i></button>
+                </form>
+             </div>
+            
+            <ul class="list-unstyled d-md-flex m-0  align-seilf-end nav-bar-nav d-none">
+                <li class="me-4"><a href="#"><i class="icofont-ui-file"></i>REGISTER</a></li>
+                <li><a href="#"><i class="icofont-ui-user"></i>LOGIN</a></li>
+            </ul>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="border-2 border-bottom border-secondary d-md-none d-block position-absolute w-100 top-100 bg-info z-index-1">
+        <div class="container-lg collapse navbar-collapse py-4" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item mb-3">
+                <a  href="#"><i class="icofont-ui-file"></i>REGISTER</a>
+                </li>
+                <li class="nav-item">
+                <a  href="#"><i class="icofont-ui-user"></i>LOGIN</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
